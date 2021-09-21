@@ -18,8 +18,14 @@
 
     ```bash
     cd /mnt/data/on_boot.d/10-fix_ipv6.sh
-    wget 
+    wget https://raw.githubusercontent.com/bruvv/kpn_ipv6_udm-pro/main/10-fix_ipv6.sh
     ```
-    
 
-(source: https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script#steps)
+4. execute and test:
+
+    ```bash
+    sh /mnt/data/on_boot.d/10-fix_ipv6.sh
+    ping6 google.com
+    ```
+
+Thanks to: https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script#steps)
