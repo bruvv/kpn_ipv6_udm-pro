@@ -18,7 +18,7 @@
 
     ```bash
     cd /mnt/data/on_boot.d
-    wget https://raw.githubusercontent.com/bruvv/kpn_ipv6_udm-pro/main/10-fix_ipv6.sh
+    curl -L https://raw.githubusercontent.com/bruvv/kpn_ipv6_udm-pro/main/10-fix_ipv6.sh -o 10-fix_ipv6.sh
     ```
 
 4. execute and test:
